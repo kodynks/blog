@@ -2689,10 +2689,10 @@ button,
 
 /* Menu */
 #wrapper {
-  -moz-transition: opacity 0.45s ease;
-  -webkit-transition: opacity 0.45s ease;
-  -ms-transition: opacity 0.45s ease;
-  transition: opacity 0.45s ease;
+  -moz-transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+  -ms-transition: opacity 1s ease;
+  transition: opacity 1s ease;
   opacity: 1; }
 
 #menu {
@@ -2700,10 +2700,10 @@ button,
   -webkit-transform: translateX(22em);
   -ms-transform: translateX(22em);
   transform: translateX(22em);
-  -moz-transition: -moz-transform 0.45s ease, visibility 0.45s;
-  -webkit-transition: -webkit-transform 0.45s ease, visibility 0.45s;
-  -ms-transition: -ms-transform 0.45s ease, visibility 0.45s;
-  transition: transform 0.45s ease, visibility 0.45s;
+  -moz-transition: -moz-transform 1s ease, visibility 1s;
+  -webkit-transition: -webkit-transform 1s ease, visibility 1s;
+  -ms-transition: -ms-transform 1s ease, visibility 1s;
+  transition: transform 1s ease, visibility 1s;
   position: fixed;
   top: 0;
   right: 0;
@@ -2717,10 +2717,10 @@ button,
   visibility: hidden;
   z-index: 10002; }
   #menu > .inner {
-    -moz-transition: opacity 0.45s ease;
-    -webkit-transition: opacity 0.45s ease;
-    -ms-transition: opacity 0.45s ease;
-    transition: opacity 0.45s ease;
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    transition: opacity 1s ease;
     -webkit-overflow-scrolling: touch;
     position: absolute;
     top: 0;
@@ -2747,10 +2747,10 @@ button,
           border-top: 0;
           margin-top: -1em; }
   #menu > .close {
-    -moz-transition: opacity 0.45s ease, -moz-transform 0.45s ease;
-    -webkit-transition: opacity 0.45s ease, -webkit-transform 0.45s ease;
-    -ms-transition: opacity 0.45s ease, -ms-transform 0.45s ease;
-    transition: opacity 0.45s ease, transform 0.45s ease;
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
     -moz-transform: scale(0.25) rotate(180deg);
     -webkit-transform: scale(0.25) rotate(180deg);
     -ms-transform: scale(0.25) rotate(180deg);
